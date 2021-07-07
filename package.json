@@ -9,7 +9,7 @@
         "@ui5/webcomponents": "^1.0.0-rc.14",
         "@ui5/webcomponents-fiori": "1.0.0-rc.14",
         "@ui5/webcomponents-icons": "1.0.0-rc.14",
-        "@ui5/webcomponents-react": "^0.16.4",
+        "@ui5/webcomponents-react": "^0.16.6",
         "jest-environment-jsdom-sixteen": "^2.0.0",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
