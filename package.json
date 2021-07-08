@@ -5,7 +5,7 @@
         "@testing-library/jest-dom": "^5.14.1",
         "@testing-library/react": "^12.0.0",
         "@testing-library/user-event": "^13.1.9",
-        "@types/react-router-dom": "^5.1.7",
+        "@types/react-router-dom": "^5.1.8",
         "@ui5/webcomponents": "^1.0.0-rc.14",
         "@ui5/webcomponents-fiori": "1.0.0-rc.14",
         "@ui5/webcomponents-icons": "1.0.0-rc.14",
