@@ -1992,6 +1992,11 @@
   dependencies:
     "@types/jest" "*"
 
+"@types/trusted-types@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.2.tgz#fc25ad9943bcac11cceb8168db4f275e0e72e756"
+  integrity sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==
+
 "@types/uglify-js@*":
   version "3.13.0"
   resolved "https://registry.yarnpkg.com/@types/uglify-js/-/uglify-js-3.13.0.tgz#1cad8df1fb0b143c5aba08de5712ea9d1ff71124"
@@ -2153,6 +2158,13 @@
   dependencies:
     lit-html "^1.3.0"
 
+"@ui5/webcomponents-base@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-base/-/webcomponents-base-1.9.0.tgz#5d13a2f204683bfeae111770b85ab7d756175972"
+  integrity sha512-evBxKfTBj6reuaVBwjrBMUFIbOCY+zf+t1nvpURnm2JHU+yxRZSo4B7P9ykNg1V5/Wj7ahvF6WQ/Z3yFJ6JTtA==
+  dependencies:
+    lit-html "^2.0.1"
+
 "@ui5/webcomponents-fiori@1.0.0-rc.14":
   version "1.0.0-rc.14"
   resolved "https://registry.yarnpkg.com/@ui5/webcomponents-fiori/-/webcomponents-fiori-1.0.0-rc.14.tgz#b9059642363991c01ddcf0dcb003241fa17db63f"
@@ -2170,6 +2182,13 @@
   integrity sha512-VGZlKB/sGIWAZybo6ns9qQKo2LtQxe5dWNEiT03QqgPiA3H1vjItt4DdfAjhlAJ7DjKKC/SX5KkXiscTQhmxLg==
   dependencies:
     "@ui5/webcomponents-base" "0.34.0"
+
+"@ui5/webcomponents-icons@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-icons/-/webcomponents-icons-1.9.0.tgz#32fb9c07ee47812cbff62e2e5b684e403cc4dc3e"
+  integrity sha512-Eq3BHL5SnCEScx77VJRrXlCcp0sENq101e7vJO1RyALycP18ofopg1kXix1EDpO4lqi+CRmvSq/xcwQuSEHSBQ==
+  dependencies:
+    "@ui5/webcomponents-base" "1.9.0"
 
 "@ui5/webcomponents-ie11@0.34.0":
   version "0.34.0"
@@ -7373,6 +7392,13 @@ lit-html@^1.3.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-1.4.1.tgz#0c6f3ee4ad4eb610a49831787f0478ad8e9ae5e0"
   integrity sha512-B9btcSgPYb1q4oSOb/PrOT6Z/H+r6xuNzfH4lFli/AWhYwdtrgQkQWBbIc6mdnf6E2IL3gDXdkkqNktpU0OZQA==
+
+lit-html@^2.0.1:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-2.4.0.tgz#b510430f39a56ec959167ed1187241a4e3ab1574"
+  integrity sha512-G6qXu4JNUpY6aaF2VMfaszhO9hlWw0hOTRFDmuMheg/nDYGB+2RztUSOyrzALAbr8Nh0Y7qjhYkReh3rPnplVg==
+  dependencies:
+    "@types/trusted-types" "^2.0.2"
 
 load-json-file@^4.0.0:
   version "4.0.0"
